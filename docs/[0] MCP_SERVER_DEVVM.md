@@ -2,6 +2,7 @@
 
 > **Supersedes** `[0] MCP_SERVER_PYTHON_SSH.md` for this problem. Takes the security pipeline from `[0] MCP_SERVER.md`, the execution semantics from `[0] MCP_SERVER_PYTHON_API.md`, and the containment work from the SSH edition, and resolves them against a better execution primitive.
 > **The one idea to take away:** §5. Everything else in this document is scaffolding around it.
+> **Companion:** `[1] WRITING_OPERATIONS.md` — the practical guide to converting shell commands into operations (altitude, parameter triage, effect declarations, worked examples, review checklist).
 
 ---
 
