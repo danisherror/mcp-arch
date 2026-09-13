@@ -1,5 +1,10 @@
 # Secure MCP Command Server — Python + SSH to a Dev VM
 
+> ⚠️ **Superseded by `[0] MCP_SERVER_DEVVM.md`** for new work. That edition replaces shell-over-SSH
+> with typed operations behind a loopback daemon, which removes this document's central weakness
+> (a command's effect cannot be derived from its text). Sections 12.2 (blast radius), 3.2 (the root
+> trap), and 5.5 (interpreter escapes) remain accurate and are carried forward there.
+
 > **Status:** Implementation reference. Same doctrine as `[0] MCP_SERVER.md` (database) and `[0] MCP_SERVER_PYTHON_API.md` (HTTP endpoints), re-derived for a **Python MCP server that executes commands on a dev VM over SSH**.
 > **Read Sections 0.2 and 5 before anything else.** Two assumptions that held in both previous editions break here, and they change the design more than the transport does.
 
